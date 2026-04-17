@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rose &amp; Christian — Wedding Invitation</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-container": "#595049",
+                        "on-secondary-fixed": "#4a3d2f",
+                        "primary": "#665d56",
+                        "on-surface-variant": "#66645c",
+                        "on-surface": "#393831",
+                        "primary-container": "#eee0d7",
+                        "secondary": "#716252",
+                        "on-primary-fixed-variant": "#635a53",
+                        "secondary-container": "#f4dfcc",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#dfd2c9",
+                        "on-tertiary-fixed": "#504738",
+                        "primary-fixed": "#eee0d7",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed-dim": "#f0e0cc",
+                        "surface-variant": "#ebe8dd",
+                        "inverse-primary": "#f7e8df",
+                        "background": "#fffbff",
+                        "surface-container-low": "#fdf9f2",
+                        "on-tertiary-container": "#635949",
+                        "surface-bright": "#fffbff",
+                        "secondary-fixed": "#f4dfcc",
+                        "secondary-dim": "#645647",
+                        "error": "#a54731",
+                        "primary-dim": "#5a514a",
+                        "on-error-container": "#742410",
+                        "error-container": "#fe8b70",
+                        "on-background": "#393831",
+                        "surface": "#fffbff",
+                        "on-primary-fixed": "#463e37",
+                        "tertiary-fixed": "#feefda",
+                        "outline-variant": "#bcb9af",
+                        "surface-container-highest": "#ebe8dd",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#0f0e0c",
+                        "surface-dim": "#e6e2d6",
+                        "outline": "#828178",
+                        "on-tertiary-fixed-variant": "#6e6353",
+                        "on-secondary-container": "#5e4f41",
+                        "inverse-on-surface": "#9f9c98",
+                        "tertiary-container": "#feefda",
+                        "on-secondary-fixed-variant": "#68594a",
+                        "secondary-fixed-dim": "#e5d1be",
+                        "error-dim": "#5c1202",
+                        "tertiary": "#6e6353",
+                        "tertiary-dim": "#615747",
+                        "surface-container-high": "#f1eee4",
+                        "surface-container": "#f7f3eb",
+                        "surface-tint": "#665d56",
+                        "on-primary": "#fff6f1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Newsreader"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"],
+                        "newsreader": ["Newsreader"],
+                        "manrope": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .font-newsreader { font-family: 'Newsreader', serif; }
+        .font-manrope { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .glass-nav { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+        .bg-hero-overlay { background: radial-gradient(circle, rgba(255,251,255,0.4) 0%, rgba(238,224,215,0.2) 100%); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        
+        /* Scroll Reveal Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1.2s cubic-bezier(0.21, 0.45, 0.32, 0.9), transform 1.2s cubic-bezier(0.21, 0.45, 0.32, 0.9);
+            will-change: opacity, transform;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .reveal {
+                transition: none;
+                opacity: 1;
+                transform: none;
+            }
+        }
+    </style>
+<style>
+        body {
+          min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-manrope selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full flex justify-between items-center px-6 py-4 bg-surface/80 dark:bg-zinc-900/80 backdrop-blur-md z-50">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#665d56] dark:text-[#DBCFBC]">menu</span>
+</div>
+<h1 class="font-newsreader italic text-2xl tracking-tight text-[#665d56] dark:text-[#DBCFBC]">Rose &amp; Christian</h1>
+<div class="w-10"></div> <!-- Spacer for centering -->
+</header>
+<!-- Hero Section -->
+<main>
+<section class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Romantic landscape" class="w-full h-full object-cover opacity-80" data-alt="Dreamy outdoor wedding ceremony setup with soft morning mist, white floral arrangements, and warm sunlight filtering through old oak trees" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpxQCFtD8-ykC1SvjOnjRzJE_DcKGvK4bRnLFULNuoIeEXAwwsxuoF03rrFwfdvAeZVi9t2QloX5DCDwvhZlhyhj8Vo_Kp8fHE5YaClkpiobv5dsufYm4LflXm4oB6sLVmZQceiPpTzJWZjYybzri7XTdSf-3d7-8VfcvitzFYORkqTj7QzraymIQ995E0Zh_ePz1hIERFpBdo_UrPcRWzTgYrqxkvx3LXHJF155h3KXPwq2xjM9tgsT210vx4cR07njBxO7kZkF8C"/>
+<div class="absolute inset-0 bg-hero-overlay"></div>
+</div>
+<div class="relative z-10 text-center px-8 flex flex-col items-center reveal active">
+<p class="font-manrope text-xs tracking-[0.2em] uppercase text-primary mb-6">Uniendo nuestras vidas</p>
+<h2 class="font-newsreader italic text-5xl md:text-7xl lg:text-8xl text-on-surface leading-tight mb-8">Rose &amp; Christian</h2>
+<p class="font-newsreader italic text-2xl text-on-surface-variant mb-4">June 14th, 2026</p>
+<div class="w-10 h-[1px] bg-primary mb-8"></div>
+<p class="font-newsreader italic text-lg text-primary max-w-xs mb-12 leading-relaxed">
+                    "Encontré a quien mi alma ama, y desde ese momento, todo el tiempo es nuestro."
+                </p>
+<a class="bg-primary text-on-primary px-10 py-4 rounded-md font-manrope tracking-widest uppercase text-xs hover:bg-primary-dim transition-all duration-500 scale-100 hover:scale-[1.02]" href="#event">
+                    Ver Detalles
+                </a>
+</div>
+</section>
+<!-- Story Section -->
+<section class="py-24 bg-surface-container-low px-6 overflow-hidden">
+<div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-16 items-center reveal">
+<div class="order-2 md:order-1">
+<div class="relative">
+<div class="absolute -inset-4 border-[0.5px] border-outline-variant/30 rounded-xl"></div>
+<img alt="The Couple" class="relative rounded-xl grayscale-[20%] w-full h-[500px] object-cover shadow-2xl" data-alt="Candid moment of a loving couple walking through a sun-drenched flower field in Provence, soft focus and warm beige tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlb2bDjunng3qTO-3Ua8nrXbp9T8mcL-r3DW1vE605ql70cq_R8A7DhS84wCDzD8TJN-Ytu2Xr-8jDAHX71PXk9YunRFmHqB3medw0Ai1ytCvVHDIj5qfpmyS1vuW2VY-VbICsJWcvYV4rXtxg2_HKiwXU8p_nk-hyET5TH25DlwAnx_5aHG8M1O_V_YiDBOc0wZ_gzhJZNws9jlNoVEbBGoTZkaCZ97lw_taKOHswOPjwCUDyU97vomTT2hF7HuAXl8WgkiCG3n5N"/>
+</div>
+</div>
+<div class="order-1 md:order-2 flex flex-col items-start">
+<span class="font-manrope text-[10px] tracking-[0.3em] uppercase text-outline mb-4">La Historia</span>
+<h2 class="font-newsreader italic text-4xl text-on-surface mb-8">Nuestra Historia</h2>
+<div class="space-y-6 font-manrope font-light text-on-surface-variant leading-relaxed text-sm md:text-base">
+<p>Todo comenzó en una pequeña cafetería en el corazón de Madrid. Un encuentro casual, una mirada compartida sobre libros de poesía y dos cafés fríos.</p>
+<p>Desde aquel día, cada paso ha sido una danza entre dos almas que se reconocieron al instante. Rose, con su espíritu libre, y Christian, con su calma eterna, encontraron en el otro el hogar que no sabían que buscaban.</p>
+<p>Hoy, después de mil atardeceres, decidimos decir "sí" para siempre.</p>
+</div>
+<div class="mt-10 flex gap-2">
+<div class="w-2 h-2 rounded-full bg-primary-fixed-dim"></div>
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Event Details Section -->
+<section class="py-32 bg-surface overflow-hidden" id="event">
+<div class="max-w-5xl mx-auto px-6 reveal">
+<div class="text-center mb-20">
+<h2 class="font-newsreader italic text-4xl text-on-surface">El Evento</h2>
+<div class="mt-4 flex justify-center items-center gap-4">
+<div class="h-[1px] w-12 bg-outline-variant"></div>
+<span class="material-symbols-outlined text-outline text-sm">favorite</span>
+<div class="h-[1px] w-12 bg-outline-variant"></div>
+</div>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Date Card -->
+<div class="bg-surface-container-lowest p-12 rounded-xl text-center flex flex-col items-center justify-center shadow-sm reveal">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">calendar_today</span>
+<h3 class="font-newsreader italic text-2xl mb-2">Cuándo</h3>
+<p class="font-manrope text-sm tracking-wide text-on-surface-variant">Junio 14, 2026</p>
+<p class="font-manrope text-sm tracking-wide text-on-surface-variant">5:00 PM</p>
+</div>
+<!-- Location Card -->
+<div class="bg-surface-container-highest p-12 rounded-xl text-center flex flex-col items-center justify-center col-span-1 md:col-span-2 relative overflow-hidden reveal">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-primary text-3xl mb-4">location_on</span>
+<h3 class="font-newsreader italic text-2xl mb-2">Dónde</h3>
+<p class="font-manrope text-lg font-medium text-on-surface mb-2">The Grand Hall, Madrid</p>
+<p class="font-manrope text-xs text-on-surface-variant uppercase tracking-widest mb-8">Paseo del Prado, 28014 Madrid</p>
+<a class="inline-flex items-center gap-2 border-b border-primary pb-1 text-xs uppercase tracking-widest font-semibold text-primary hover:opacity-70 transition-opacity" href="#">
+                                Abrir en Google Maps
+                                <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<img alt="Map texture" class="w-full h-full object-cover" data-alt="Abstract architectural lines and soft shadows of a classic European building facade in monochrome tones" data-location="Madrid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXt0MPxuqa8jWjZIzomfbpUHQ3hEIYSO4AdqKWufOCGd92yh20n4UNruJwQ6LclrAlO7YrrCyp8AckMbFqaTsgfCQ_kLha6IOjPvK28jFsftzB9dhEH14DOXQmhca2PrnzkA4s7VnbxutLvfydqiz2eBTP7N7LaSAhCB4tEz4AdHKQVpf_RSUyRD5IS9wpBj5-oLAvibnj-Umwp-RkQsrRrJldpmwkKycbjjbY6Las4n71eJZ9hGzocfQTRf8VAwOlfO_OA_RBvhuS"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Music Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-md mx-auto px-6 text-center reveal">
+<div class="bg-surface-container-lowest rounded-full p-12 shadow-xl border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">music_note</span>
+<h2 class="font-newsreader italic text-3xl text-on-surface mb-4">Nuestra Banda Sonora</h2>
+<p class="font-manrope text-sm text-on-surface-variant mb-8 leading-relaxed">
+                        Aquella melodía que nos define. Queremos que nos acompañes en este ritmo antes de encontrarnos.
+                    </p>
+<a class="bg-[#1DB954] text-white px-8 py-3 rounded-full font-manrope font-semibold text-sm inline-flex items-center gap-3 hover:opacity-90 transition-opacity" href="https://spotify.com">
+<span class="material-symbols-outlined">play_circle</span>
+                        Escuchar en Spotify
+                    </a>
+</div>
+</div>
+</section>
+<!-- RSVP & Countdown Section -->
+<section class="py-32 bg-surface-container-highest px-6">
+<div class="max-w-3xl mx-auto text-center reveal">
+<span class="font-manrope text-[10px] tracking-[0.4em] uppercase text-primary mb-6 block">Faltan</span>
+<!-- Countdown -->
+<div class="flex justify-center gap-8 md:gap-16 mb-20">
+<div class="flex flex-col">
+<span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">365</span>
+<span class="font-manrope text-[10px] uppercase tracking-widest text-outline">Días</span>
+</div>
+<div class="flex flex-col">
+<span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">12</span>
+<span class="font-manrope text-[10px] uppercase tracking-widest text-outline">Horas</span>
+</div>
+<div class="flex flex-col">
+<span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">45</span>
+<span class="font-manrope text-[10px] uppercase tracking-widest text-outline">Minutos</span>
+</div>
+</div>
+<div class="bg-surface p-12 rounded-xl shadow-lg border border-outline-variant/20 reveal">
+<h2 class="font-newsreader italic text-4xl text-on-surface mb-6">Confirmar Asistencia</h2>
+<p class="font-manrope text-on-surface-variant mb-12 max-w-sm mx-auto leading-relaxed">
+                        Agradecemos tu confirmación antes del 1 de Mayo para preparar cada detalle de este día.
+                    </p>
+<div class="flex flex-col gap-4 max-w-xs mx-auto">
+<a class="bg-primary text-on-primary py-4 rounded-md font-manrope tracking-widest uppercase text-xs flex items-center justify-center gap-3 hover:bg-primary-dim transition-all" href="https://wa.me/123456789">
+<span class="material-symbols-outlined text-sm">chat</span>
+                            Confirmar por WhatsApp
+                        </a>
+<p class="text-[10px] text-outline font-manrope uppercase tracking-tighter">O envía un correo a: rsvp@roseandchristian.com</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fdf9f2] dark:bg-zinc-950 py-12 flex flex-col items-center gap-6 w-full text-center px-8">
+<div class="font-newsreader italic text-lg text-[#665d56] dark:text-[#DBCFBC]">Rose &amp; Christian</div>
+<nav class="flex gap-8">
+<a class="font-manrope text-xs tracking-widest uppercase text-[#828178] hover:text-[#665d56] transition-colors" href="#">Our Story</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#828178] hover:text-[#665d56] transition-colors" href="#">Event</a>
+<a class="font-manrope text-xs tracking-widest uppercase text-[#828178] hover:text-[#665d56] transition-colors" href="#">RSVP</a>
+</nav>
+<div class="w-12 h-[0.5px] bg-outline-variant"></div>
+<div class="font-manrope text-xs tracking-widest uppercase text-[#665d56] dark:text-[#DBCFBC]">
+            With love, Rose &amp; Christian — 2024
+        </div>
+</footer>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.15,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+
+            const revealElements = document.querySelectorAll('.reveal');
+            revealElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body></html>
