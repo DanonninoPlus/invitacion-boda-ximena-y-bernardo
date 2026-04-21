@@ -137,6 +137,16 @@
           min-height: max(884px, 100dvh);
         }
     </style>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3 { font-family: 'Newsreader', serif; }
+    </style>
+
 </head>
 <body class="bg-surface text-on-surface font-manrope selection:bg-primary-container selection:text-on-primary-container">
 <!-- TopAppBar -->
@@ -184,10 +194,12 @@
 <a class="hero-animate bg-primary text-on-primary px-10 py-4 rounded-md font-manrope tracking-widest uppercase text-xs hover:bg-primary-dim transition-all duration-500 scale-100 hover:scale-[1.02] style="animation-delay: 2s href="#historia">
                     Ver Detalles
                 </a>
-
-
-
 </div>
+
+<div class="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
+<span class="material-symbols-outlined text-primary text-3xl">expand_more</span>
+</div>
+
 </section>
 <!-- Story Section -->
 <section class="py-24 bg-surface-container-low px-6 overflow-hidden" id="historia">
@@ -200,7 +212,7 @@
 </div>
 <div class="order-1 md:order-2 flex flex-col items-start">
 <span class="font-manrope text-[10px] tracking-[0.3em] uppercase text-outline mb-4">CONOCE</span>
-<h2 class="font-newsreader italic text-4xl text-on-surface mb-8">Nuestra Historia</h2>
+<h2 class="font-newsreader italic text-4xl text-on-surface mb-8">Este momento, juntos</h2>
 <div class="space-y-6 font-manrope font-light text-on-surface-variant leading-relaxed text-sm md:text-base">
 <p>Nos llena de alegría saber que forman parte de nuestra historia.</p>
 <p>Hoy celebraremos el amor, pero también celebramos los lazos que nos han acompañado hasta aquí.</p>
@@ -288,7 +300,7 @@
 </div>
 </section>
 <!-- Timeline Section -->
-<section class="py-32 bg-surface overflow-hidden" id="programa">
+<section class="py-24 bg-surface overflow-hidden" id="programa">
 <div class="max-w-2xl mx-auto px-6 reveal">
 <div class="text-center mb-16">
 <span class="font-manrope text-[10px] tracking-[0.3em] uppercase text-outline mb-4 block">El Día</span>
@@ -346,6 +358,83 @@
 </div>
 </div>
 </section>
+
+<!-- Considerations (Avisos) -->
+<section class="py-24 px-6 bg-surface-container-high">
+<div class="max-w-3xl mx-auto text-center p-12 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">info</span>
+<h2 class="text-4xl font-newsreader mb-6 text-primary italic">Sobre los Pequeños</h2>
+<p class="font-manrope text-on-surface-variant leading-relaxed text-lg italic">
+                    Nos encantará que nos acompañen en la ceremonia. Para la celebración, hemos elegido que sea un momento <span class="text-primary font-bold">solo para adultos,</span> con la intención de que todos puedan disfrutarlo al máximo.
+                </p>                
+<div class="h-[1px] w-12 bg-primary-fixed-dim mx-auto my-8"></div>
+<p class="font-manrope text-sm text-on-surface-variant">
+                    Contaremos con el apoyo de una <span class="text-primary font-bold">agencia de niñeras.</span> Si lo requieren, puedes solicitar información al número de confirmación. Gracias por su cariño y por ser parte de este día tan especial. 
+                </p>
+                
+</div>
+</section>
+<!-- Dress Code -->
+<section class="py-24 px-6 bg-surface">
+<div class="max-w-6xl mx-auto space-y-16">
+<div class="text-center space-y-4">
+<span class="font-manrope text-[10px] uppercase tracking-[0.3em] text-primary/60">Guía de Estilo</span>
+<h2 class="text-5xl font-newsreader italic text-primary">Dress Code: Formal</h2>
+</div>
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<p class="font-manrope text-on-surface-variant text-lg">
+                            Nos encantaría verlos en sus mejores atuendos inspirados en la siguiente paleta de colores para crear una armonía visual inolvidable.
+                        </p>
+<div class="flex flex-wrap gap-8">
+    <div class="flex flex-col items-center gap-3">
+        <div class="w-16 h-16 rounded-full bg-[#efe6dd] shadow-inner"></div>
+        <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">crema</span> -->
+        </div>
+        <div class="flex flex-col items-center gap-3">
+        <div class="w-16 h-16 rounded-full bg-[#e3bba2] shadow-inner"></div>
+        <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">durazno</span> -->
+        </div>
+        <div class="flex flex-col items-center gap-3">
+        <div class="w-16 h-16 rounded-full bg-[#e1cbbd] shadow-inner"></div>
+        <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">rosa palo</span> -->
+        </div>
+        <div class="flex flex-col items-center gap-3">
+        <div class="w-16 h-16 rounded-full bg-[#ccc2c0] shadow-inner"></div>
+        <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">malva grisáceo</span> -->
+        </div>
+        <div class="flex flex-col items-center gap-3">
+        <div class="w-16 h-16 rounded-full bg-[#a68b80] shadow-inner"></div>
+        <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">café rosado</span> -->
+        </div>
+            <div class="flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-full bg-[#c8aca0] shadow-inner"></div>
+            <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">rosa palo oscuro</span> -->
+            </div>
+            <div class="flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-full bg-[#d0947a] shadow-inner"></div>
+            <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">terracota</span> -->
+            </div>
+            <div class="flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-full bg-[#999b86] shadow-inner"></div>
+            <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">verde olivo</span> -->
+            </div>
+            <div class="flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-full bg-[#8b9187] shadow-inner"></div>
+            <!-- <span class="font-manrope text-[10px] uppercase tracking-widest text-primary/60">verde salvia azulado</span> -->
+            </div>
+    </div>
+</div>
+<div class="aspect-[4/3] rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="High-end editorial fashion shot of neutral tone silk and linen textures in soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBhStJRRjHpjo1H7lsWFsgHwAV8fN0m_5lm9YfiyRlYW5A1Yg3b5Q2Al3N7QDeCDEqw-ZpkbPSszQgUXU1zmGj718QFoMxHjOAQkGmVg-6-66FjnC3nk8LCJIZJnHipwuw68IGOitFrx1StFlVqJ05RENHsAhE6iOibDbA3oBgnWftMJiDooyl4RY9JvFuIge1ttfhDfIu-0YUdplU3jkajNwgvPcoYxrpH27Yh1W_GAQ4tTL23pFDMCwSwp9dqwaMqoUg28wUqo7S"/>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
 <!-- Gift Registry Section -->
 <section class="py-24 bg-surface-container-low px-6">
 <div class="max-w-4xl mx-auto reveal">
@@ -368,8 +457,8 @@
 <h3 class="font-newsreader italic text-2xl mb-4">Transferencia Bancaria</h3>
 <!-- <p class="font-manrope text-sm text-on-surface-variant mb-4">Datos de la cuenta</p> -->
 <p class="font-manrope text-sm font-medium text-on-surface mb-1 tracking-widest">BBVA</p>
-<p class="font-manrope text-sm font-medium text-on-surface mb-1 tracking-widest">Cuenta: 000 000 000</p>
-<p class="font-manrope text-sm font-medium text-on-surface mb-1 tracking-widest">Nombre del beneficiario</p>
+<p class="font-manrope text-sm font-medium text-on-surface mb-1 tracking-widest">Cuenta: 153 708 7406</p>
+<p class="font-manrope text-sm font-medium text-on-surface mb-1 tracking-widest">Zaira Ximena Zarate Ojeda</p>
 
 </div>
 </div>
@@ -431,21 +520,25 @@
 <!-- RSVP & Countdown Section -->
 <section class="py-32 bg-surface-container-highest px-6" id="rsvp">
 <div class="max-w-3xl mx-auto text-center reveal">
-<span class="font-manrope text-[10px] tracking-[0.4em] uppercase text-primary mb-6 block">Faltan</span>
+<span class="font-manrope text-[14px] tracking-[0.4em] uppercase text-primary mb-6 block">Faltan</span>
 <!-- Countdown -->
 <div class="flex justify-center gap-8 md:gap-16 mb-20">
 <div class="flex flex-col">
-<span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">00</span>
-<span class="font-manrope text-[10px] uppercase tracking-widest text-outline">Días</span>
-</div>
-<div class="flex flex-col">
-<span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">00</span>
-<span class="font-manrope text-[10px] uppercase tracking-widest text-outline">Horas</span>
-</div>
-<div class="flex flex-col">
-<span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">00</span>
-<span class="font-manrope text-[10px] uppercase tracking-widest text-outline">Minutos</span>
-</div>
+    <span class="font-newsreader italic text-5xl md:text-7xl text-on-surface">00</span>
+    <span class="font-manrope text-[12px] uppercase tracking-widest text-outline">Días</span>
+    </div>
+    <div class="flex flex-col">
+    <span class="font-newsreader italic text-5xl md:text-7xl text-on-surface" id="hours">00</span>
+    <span class="font-manrope text-[12px] uppercase tracking-widest text-outline">Horas</span>
+    </div>
+    <div class="flex flex-col">
+    <span class="font-newsreader italic text-5xl md:text-7xl text-on-surface" id="minutes">00</span>
+    <span class="font-manrope text-[12px] uppercase tracking-widest text-outline">Minutos</span>
+    </div>
+    <div class="flex flex-col">
+    <span class="font-newsreader italic text-5xl md:text-7xl text-on-surface" id="seconds">00</span>
+    <span class="font-manrope text-[12px] uppercase tracking-widest text-outline">Segundos</span>
+    </div>
 </div>
 <div class="bg-surface p-12 rounded-xl shadow-lg border border-outline-variant/20 reveal">
 <h2 class="font-newsreader italic text-4xl text-on-surface mb-6">Confirmar Asistencia</h2>
@@ -465,7 +558,7 @@
 </main>
 <!-- Footer -->
 <footer class="bg-[#fdf9f2] dark:bg-zinc-950 py-12 flex flex-col items-center gap-6 w-full text-center px-8">
-<div class="font-newsreader italic text-lg text-[#665d56] dark:text-[#DBCFBC]">Ximena &amp; Bernardo</div>
+<div class="font-newsreader italic text-lg text-[#665d56] dark:text-[#DBCFBC]">X &amp; B</div>
 <nav class="flex gap-8">
 <a class="font-manrope text-xs tracking-widest uppercase text-[#828178] hover:text-[#665d56] transition-colors" href="#lugar">Lugar</a>
 <a class="font-manrope text-xs tracking-widest uppercase text-[#828178] hover:text-[#665d56] transition-colors" href="#programa">Programa</a>
@@ -476,6 +569,11 @@
             Con Amor, Ximena &amp; Bernardo — 2026
         </div>
 </footer>
+
+<!-- Conectar con el JAVA-->
+<script src="script.js"></script>
+
+
 <script>
         document.addEventListener('DOMContentLoaded', () => {
             const observerOptions = {
